@@ -1,0 +1,8 @@
+html
+head
+body
+    "Trainers"
+    "Trainees"
+    "Batches"
+close body
+close html

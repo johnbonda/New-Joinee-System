@@ -1,0 +1,11 @@
+html
+head
+body
+    trainerID label
+    trainerID textfield
+
+    passoword label
+    password textfield
+close body
+close html
+
