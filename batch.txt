@@ -1,0 +1,9 @@
+This is a model file which includes how we define the batch database
+It contains the column and there data types as mentioned below
+
+batch table
+batchID integer primary key
+name string
+noofstudents integer
+placeoftraining string
+
