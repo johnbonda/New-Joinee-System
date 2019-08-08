@@ -1,0 +1,11 @@
+This is a model file which includes how we define the trainer database
+It contains the column and there data types as mentioned below
+
+trainer table
+trainerID integer primary key
+name string
+course string
+govtidno string
+exprience int
+
+
