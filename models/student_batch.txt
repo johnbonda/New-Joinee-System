@@ -1,0 +1,8 @@
+This file contains linking information
+student-batch table
+studentId int from student table
+BatchId int from batch table
+traineeId int from trainee table
+these all fields are act as foreign keys to the student and batch and trainee table
+from these combining the data or displaying the data student which he/she belongs to which branch and which trainer is giving training
+

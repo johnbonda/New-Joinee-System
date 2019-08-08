@@ -1,6 +1,0 @@
-This file contains linking information
-student-batch table
-studentId int from student table
-BatchId int from batch table
-traineeId int from trainee table
-
