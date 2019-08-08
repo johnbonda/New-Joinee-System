@@ -1,0 +1,8 @@
+html
+head
+body
+    "View time table"
+    "Courses catalogue"
+    "Pending tasks"
+close body
+close html

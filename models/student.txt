@@ -1,0 +1,10 @@
+This is a model file which includes how we define the student database
+It contains the column and there data types as mentioned below
+
+student table
+studentID integer primary key
+name string
+department string
+govtidno string
+cgpa double
+

@@ -1,0 +1,8 @@
+html
+head
+body
+    "Trainee details"
+    "Time table"
+    "Attendance"
+close body
+close html

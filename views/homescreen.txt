@@ -1,0 +1,11 @@
+html
+header
+body
+    list
+        "Admin Login"
+        "Trainee Login"
+        "Trainer Login"
+    end list
+close body
+close html
+

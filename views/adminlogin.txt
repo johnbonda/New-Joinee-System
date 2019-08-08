@@ -1,0 +1,10 @@
+html
+head
+body
+    adminId label
+    adminId textfield
+
+    password label
+    password passwordfield
+close body
+close html
