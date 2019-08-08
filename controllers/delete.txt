@@ -1,0 +1,7 @@
+function delete()
+{
+
+   System.out.println("Please confirm ");
+   free();
+
+}

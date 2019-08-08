@@ -1,0 +1,18 @@
+function update_personaldetails()
+{
+    while(1)
+    {
+    System.out.println("select option");
+    case opt1:    update name fields;
+    case opt2:    update address;
+    case opt3:    update number;
+    case opt4: update batch;
+    }
+}
+
+function update_status
+{
+   System.out.println("select option");
+   case opt1:  statuswithdrawal;
+   case opt2:  statuspromotion;
+}
