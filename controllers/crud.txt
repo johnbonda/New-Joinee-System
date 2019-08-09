@@ -1,0 +1,25 @@
+--------------- Creating a New Users -------------------------
+function CreateUser()
+{
+   create a user with the respective Name and ID;
+   return "Created User" ;
+   end
+}
+
+function Display()
+{
+   Display the users which are present.
+   return Users;
+   end
+}
+
+function Main()
+{
+   In the main function
+
+   Provide the functions and perform respective operations with them.
+
+}
+
+
+
