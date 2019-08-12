@@ -1,0 +1,5 @@
+We cannot define a required parameter after an optional parameter.
+
+The rest parameter needs to be the last parameter.
+
+Having an optional parameter before rest parameter causes the optional parameter to behave like a required paramter.
