@@ -1,51 +1,50 @@
-function Trainer(trainerID, name, course, govtidno, yearOfCareer) {
-    // Properties
-    var sessionsTaken = 0;
-
+var Trainer = /** @class */ (function () {
+    function Trainer(trainerID, name, course, govtidno, yearOfCareer) {
+        this.trainerID = trainerID;
+        this.name = name;
+        this.course = course;
+        this.govtidno = govtidno;
+        this.yearOfCareer = yearOfCareer;
+    }
     // Methods
     // Getters
-    this.getTrainerID = function() {
-        return trainerID;
-    }
-    this.getName = function() {
-        return name;
-    }
-    this.getCourse = function() {
-        return course;
-    }
-    this.getGovtIdNo = function() {
-        return govtidno;
-    }
-    this.getExperience = function() {
-        return new Date().getFullYear - yearOfCareer;
-    }
-
+    Trainer.prototype.getTrainerID = function () {
+        return this.trainerID;
+    };
+    Trainer.prototype.getName = function () {
+        return this.name;
+    };
+    Trainer.prototype.getCourse = function () {
+        return this.course;
+    };
+    Trainer.prototype.getGovtIdNo = function () {
+        return this.govtidno;
+    };
+    Trainer.prototype.getExperience = function () {
+        return new Date().getFullYear() - this.yearOfCareer;
+    };
     // Setters
-    this.setCourse = function(newCourse, key) {
-        var authorized = authentication(key);
-       if(authorized) 
-            course = newCourse;
+    Trainer.prototype.setCourse = function (newCourse, key) {
+        var authorized = this.authentication(key);
+        if (authorized)
+            this.course = newCourse;
         return authorized;
-    }
-    
+    };
     // Funcitonailites
-
     // Abstracted Functions
-    function authentication(key) {
+    Trainer.prototype.authentication = function (key) {
         return key === "secretKey";
-    }
-}
-
-var trainer1 = new Trainer(1,"John", "Computer Scrience", "ABCD1234", 1997);
+    };
+    return Trainer;
+}());
+var trainer1 = new Trainer(1, "John", "Computer Scrience", "ABCD1234", 1997);
 var trainer2 = new Trainer(2, "Kavya", "Social Studies", "EFGH5678", 2013);
-
 console.log(trainer1.getCourse());
-
 var response = trainer1.setCourse("IT", "secretKey");
-if(response) {
+if (response) {
     console.log("Updated successfully");
-} else {
+}
+else {
     console.log("Authentication failed");
 }
-
 console.log(trainer1.getCourse());
