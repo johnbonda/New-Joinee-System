@@ -1,0 +1,13 @@
+import {shape} from './shape';
+import {circle} from './circle';
+import {rectangle} from './rectangle';
+import {square} from './square';
+var obj:circle=new circle(); 
+var obj1:rectangle=new rectangle(); 
+var obj2:square=new square();
+console.log();
+console.log(obj.area());
+console.log(obj1.draw());
+console.log(obj1.area());
+console.log(obj2.draw());
+console.log(obj2.area());
